@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="GmwoGiiG"
 config/description="Game made with only Godot icon in Godot"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://Scenes/Game.tscn"
 config/icon="res://game_icon.png"
 
 [display]

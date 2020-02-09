@@ -14,12 +14,12 @@ var lifespan = 1.5
 
 onready var tween = $Tween
 
-func prepare_tween():
+func attack_tween():
 	tween.interpolate_property(self, "scale:x", scale.x, scale.x*2, 0.5, Tween.TRANS_ELASTIC, Tween.EASE_OUT)
 	tween.interpolate_property(self, "scale:y", scale.y, scale.y*2, 0.5, Tween.TRANS_ELASTIC, Tween.EASE_OUT)
 	
-	tween.interpolate_property(self, "scale:x", scale.x, 0, 0.2, Tween.TRANS_QUAD, Tween.EASE_OUT, 0.5)
-	tween.interpolate_property(self, "scale:y", scale.y, 0, 0.2, Tween.TRANS_QUAD, Tween.EASE_OUT, 0.5)
+	tween.interpolate_property(self, "scale:x", scale.x, 0, 0.35, Tween.TRANS_QUAD, Tween.EASE_OUT, 0.5)
+	tween.interpolate_property(self, "scale:y", scale.y, 0, 0.35, Tween.TRANS_QUAD, Tween.EASE_OUT, 0.5)
 
 func _ready():
 	modulate.r = rand_range(0.96,1.0)
@@ -60,7 +60,7 @@ func move(delta):
 func explode():
 	scale.x = scale.y
 	have_destination = false
-	prepare_tween()
+	attack_tween()
 	tween.start()
 	
 func add_dest(dest : Vector2):
@@ -73,4 +73,3 @@ func add_dest(dest : Vector2):
 
 func _on_Tween_tween_all_completed():
 	queue_free()
-	pass # Replace with function body.
