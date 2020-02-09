@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+void vertex() {
+  // Animate Sprite moving in big circle around its location
+  //VERTEX += vec2(cos(TIME*3.0)*20.0, sin(TIME*3.0)*20.0);
+}
+
+void fragment()
+{ 
+	vec4 col = texture(TEXTURE, UV);
+	vec3 gray = vec3(col.r + col.g + col.b)* 0.333;
+	if(gray.r > 0.53)
+		COLOR = vec4(gray, 1.0);
+	else
+		COLOR = vec4(gray, 0.0);
+}"
+
+[resource]
+shader = SubResource( 1 )

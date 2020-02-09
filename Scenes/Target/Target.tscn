@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Materials/TargetIconMaterial.tres" type="Material" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/Target/Target.gd" type="Script" id=3]
+
+[node name="Target" type="Node2D"]
+modulate = Color( 0.243137, 1, 0, 1 )
+script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+material = ExtResource( 1 )
+position = Vector2( -0.43014, 0.274437 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+region_rect = Rect2( 15.5331, 26.6121, 11.5384, 12.0629 )
