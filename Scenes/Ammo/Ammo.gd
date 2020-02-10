@@ -1,9 +1,12 @@
-extends Node2D
+extends Area2D
 
 var min_ray = 80
 var max_ray = 120
 
+var magazine
+
 var have_destination : bool = false
+var exploded : bool = false
 var destination : Vector2
 var direction
 var speed = 720
@@ -13,6 +16,8 @@ var rotation_lock = 0
 var lifespan = 1.5
 
 onready var tween = $Tween
+
+onready var collision_shape = $CollisionShape2D
 
 func attack_tween():
 	tween.interpolate_property(self, "scale:x", scale.x, scale.x*2, 0.5, Tween.TRANS_ELASTIC, Tween.EASE_OUT)
@@ -68,6 +73,10 @@ func explode():
 	attack_tween()
 	tween.start()
 	
+func register_magazine(mag):
+	magazine = mag
+	pass
+
 func add_dest(dest : Vector2):
 	destination = dest
 	have_destination = true
@@ -75,6 +84,25 @@ func add_dest(dest : Vector2):
 	rotation_lock = rad2deg(direction.angle())+90
 	scale.x = scale.x/1.44
 
-
 func _on_Tween_tween_all_completed():
 	queue_free()
+
+var save_pos
+
+func _on_Node2D_body_entered(body):
+	if body.is_in_group("break_ammo") and exploded == false:
+		exploded = true
+		if magazine.array_ammo.find(self) != -1:
+			magazine.array_ammo.erase(self)
+			magazine.ammo_cur -= 1
+			save_pos = global_position
+			call_deferred("defered_body_entered")
+		else:
+			explode()	
+func defered_body_entered():
+	collision_shape.disabled = true
+	magazine.remove_child(self)
+	magazine.world.add_child(self)
+	global_position = save_pos
+	magazine.emit_signal("ammo_changed", magazine.ammo_cur)
+	explode()

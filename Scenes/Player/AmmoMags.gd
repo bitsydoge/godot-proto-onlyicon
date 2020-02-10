@@ -37,6 +37,7 @@ func add_ammo(x):
 	for i in range(x):
 		var inst = ammo_scene.instance()
 		add_child(inst)
+		inst.register_magazine(self)
 		array_ammo.push_back(inst)
 		ammo_cur+=1
 		

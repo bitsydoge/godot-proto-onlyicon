@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Materials/GreyMaterial.tres" type="Material" id=2]
+
+[node name="CrateSprite" type="Sprite"]
+modulate = Color( 0.71, 0.4828, 0.426, 1 )
+material = ExtResource( 2 )
+position = Vector2( 608, 864 )
+texture = ExtResource( 1 )
