@@ -12,7 +12,7 @@ void fragment()
 { 
 	vec4 col = texture(TEXTURE, UV);
 	vec3 gray = vec3(col.r + col.g + col.b)* 0.333;
-	if(gray.r > 0.53)
+	if(gray.r > 0.59)
 		COLOR = vec4(gray, 1.0);
 	else
 		COLOR = vec4(gray, 0.0);

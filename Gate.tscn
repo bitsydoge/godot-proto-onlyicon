@@ -1,0 +1,823 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Materials/GreyMaterial.tres" type="Material" id=2]
+
+[node name="Gate" type="Node2D"]
+modulate = Color( 0, 0.741176, 1, 1 )
+
+[node name="icon" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 696 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon3" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 760 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon4" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 824 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon2" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 632 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon8" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 440 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon7" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 504 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon6" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 568 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon5" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 376 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon13" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1208 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon12" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1272 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon11" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1336 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon10" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1400 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon9" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1464 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon16" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1528 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon15" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1592 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon14" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1656 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon40" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1440 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon39" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1504 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon38" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1248 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon37" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1312 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon36" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1568 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon35" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1632 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon34" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1696 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon33" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1760 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon32" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1376 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon31" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1184 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon30" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1888 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon29" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1952 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon28" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2016 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon27" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2080 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon26" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2144 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon25" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2208 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon24" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2272 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon23" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2336 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon22" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2400 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon21" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 1824 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon60" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 416 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon59" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 480 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon58" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 224 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon57" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 288 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon56" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 544 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon55" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 608 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon54" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 672 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon52" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 352 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon51" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 160 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon46" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 1120 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon45" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 1184 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon44" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 1248 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon43" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 1312 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon42" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 1376 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon115" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 800 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon116" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 736 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon114" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 864 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon113" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 928 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon112" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 992 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon111" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 3200, 1056 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon80" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1384 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon79" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1448 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon78" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1192 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon77" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1256 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon76" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1512 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon75" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1576 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon74" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1640 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon73" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1704 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon72" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1320 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon71" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1128 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon70" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1832 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon69" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1896 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon68" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1960 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon67" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2024 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon66" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2088 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon65" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2152 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon64" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2216 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon63" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2280 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon62" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2344 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon61" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 1768 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon17" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1976 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon18" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2040 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon20" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1784 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon19" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1848 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon41" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2104 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon47" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2168 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon48" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2232 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon49" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2296 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon50" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1912 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon53" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 1720 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon81" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2424 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon82" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2488 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon83" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2552 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon84" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2616 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon85" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2680 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon86" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2744 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon87" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2808 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon88" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2872 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon89" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2936 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon90" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1616, 2360 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon91" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2720 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon92" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2784 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon93" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2528 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon94" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2592 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon95" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2848 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon96" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2912 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon97" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2976 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon98" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3040 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon99" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2656 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon100" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 2464 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon101" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3168 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon102" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3232 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon103" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3296 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon104" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3360 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon105" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3424 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon106" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3488 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon107" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3552 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon108" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3616 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon109" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3680 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon110" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 2504, 3104 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon131" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2664 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon132" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2728 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon133" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2472 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon134" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2536 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon135" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2792 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon136" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2856 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon137" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2920 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon138" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2984 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon139" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2600 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon140" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 2408 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon141" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3112 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon142" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3176 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon143" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3240 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon144" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3304 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon145" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3368 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon146" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3432 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon147" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3496 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon148" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3560 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon149" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3624 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )
+
+[node name="icon150" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 4176, 3048 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 28, 30, 16, 16 )

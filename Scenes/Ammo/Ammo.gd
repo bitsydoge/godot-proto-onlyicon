@@ -25,6 +25,11 @@ func _ready():
 	modulate.r = rand_range(0.96,1.0)
 	modulate.g = rand_range(0.84, 0.89)
 	modulate.b = rand_range(0.0,0.05)
+	
+	var darking = rand_range(0.0,0.1)
+	modulate.r -= darking
+	modulate.g -= darking
+	
 	var scale_rand = rand_range(0.6,0.8)
 	scale.x = scale_rand
 	scale.y = scale_rand
