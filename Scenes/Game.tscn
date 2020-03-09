@@ -12,16 +12,16 @@
 [ext_resource path="res://Scenes/HeadSprite.gd" type="Script" id=10]
 [ext_resource path="res://CrateSprite.tscn" type="PackedScene" id=11]
 
-[sub_resource type="RectangleShape2D" id=3]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 4096, 64 )
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 64, 1024 )
 
-[sub_resource type="RectangleShape2D" id=2]
+[sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 32, 32 )
 
-[sub_resource type="CircleShape2D" id=1]
+[sub_resource type="CircleShape2D" id=4]
 radius = 40.0
 
 [node name="Game" type="Node"]
@@ -34,19 +34,19 @@ visible = false
 
 [node name="Top" type="CollisionShape2D" parent="GameLimits/StaticBody2D"]
 position = Vector2( 4096, -192 )
-shape = SubResource( 3 )
+shape = SubResource( 1 )
 
 [node name="Bot" type="CollisionShape2D" parent="GameLimits/StaticBody2D"]
 position = Vector2( 4096, 2112 )
-shape = SubResource( 3 )
+shape = SubResource( 1 )
 
 [node name="Left" type="CollisionShape2D" parent="GameLimits/StaticBody2D"]
 position = Vector2( -64, 1024 )
-shape = SubResource( 4 )
+shape = SubResource( 2 )
 
 [node name="Right" type="CollisionShape2D" parent="GameLimits/StaticBody2D"]
 position = Vector2( 8256, 1024 )
-shape = SubResource( 4 )
+shape = SubResource( 2 )
 
 [node name="World" type="Node2D" parent="."]
 
@@ -101,7 +101,19 @@ follow_viewport_enable = true
 follow_viewport_scale = 1.08
 
 [node name="CrateSprite" parent="World/Props -1" instance=ExtResource( 11 )]
-position = Vector2( 640, 768 )
+position = Vector2( 976, 832 )
+
+[node name="CrateSprite2" parent="World/Props -1" instance=ExtResource( 11 )]
+position = Vector2( 1200, 928 )
+
+[node name="CrateSprite3" parent="World/Props -1" instance=ExtResource( 11 )]
+position = Vector2( 1200, 744 )
+
+[node name="CrateSprite4" parent="World/Props -1" instance=ExtResource( 11 )]
+position = Vector2( 1392, 864 )
+
+[node name="CrateSprite5" parent="World/Props -1" instance=ExtResource( 11 )]
+position = Vector2( 1520, 928 )
 
 [node name="Props 0" type="CanvasLayer" parent="World"]
 follow_viewport_enable = true
@@ -111,7 +123,7 @@ follow_viewport_scale = 1.1
 "break_ammo",
 "can_move",
 ]]
-position = Vector2( 640, 768 )
+position = Vector2( 976, 832 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -126,14 +138,110 @@ remote_path = NodePath("../../../Props +1/CrateSprite")
 position = Vector2( 0, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/Props 0/Crate"]
-shape = SubResource( 2 )
+shape = SubResource( 3 )
+
+[node name="Crate2" type="RigidBody2D" parent="World/Props 0" groups=[
+"break_ammo",
+"can_move",
+]]
+position = Vector2( 1200, 928 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="World/Props 0/Crate2"]
+remote_path = NodePath("../../../Props -1/CrateSprite2")
+
+[node name="RemoteTransform2D2" type="RemoteTransform2D" parent="World/Props 0/Crate2"]
+remote_path = NodePath("../../../Props +1/CrateSprite2")
+
+[node name="CrateSprite" parent="World/Props 0/Crate2" instance=ExtResource( 11 )]
+position = Vector2( 0, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Props 0/Crate2"]
+shape = SubResource( 3 )
+
+[node name="Crate3" type="RigidBody2D" parent="World/Props 0" groups=[
+"break_ammo",
+"can_move",
+]]
+position = Vector2( 1200, 744 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="World/Props 0/Crate3"]
+remote_path = NodePath("../../../Props -1/CrateSprite3")
+
+[node name="RemoteTransform2D2" type="RemoteTransform2D" parent="World/Props 0/Crate3"]
+remote_path = NodePath("../../../Props +1/CrateSprite3")
+
+[node name="CrateSprite" parent="World/Props 0/Crate3" instance=ExtResource( 11 )]
+position = Vector2( 0, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Props 0/Crate3"]
+shape = SubResource( 3 )
+
+[node name="Crate4" type="RigidBody2D" parent="World/Props 0" groups=[
+"break_ammo",
+"can_move",
+]]
+position = Vector2( 1392, 864 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="World/Props 0/Crate4"]
+remote_path = NodePath("../../../Props -1/CrateSprite4")
+
+[node name="RemoteTransform2D2" type="RemoteTransform2D" parent="World/Props 0/Crate4"]
+remote_path = NodePath("../../../Props +1/CrateSprite4")
+
+[node name="CrateSprite" parent="World/Props 0/Crate4" instance=ExtResource( 11 )]
+position = Vector2( 0, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Props 0/Crate4"]
+shape = SubResource( 3 )
+
+[node name="Crate5" type="RigidBody2D" parent="World/Props 0" groups=[
+"break_ammo",
+"can_move",
+]]
+position = Vector2( 1520, 928 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="World/Props 0/Crate5"]
+remote_path = NodePath("../../../Props -1/CrateSprite5")
+
+[node name="RemoteTransform2D2" type="RemoteTransform2D" parent="World/Props 0/Crate5"]
+remote_path = NodePath("../../../Props +1/CrateSprite5")
+
+[node name="CrateSprite" parent="World/Props 0/Crate5" instance=ExtResource( 11 )]
+position = Vector2( 0, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="World/Props 0/Crate5"]
+shape = SubResource( 3 )
 
 [node name="Props +1" type="CanvasLayer" parent="World"]
 follow_viewport_enable = true
 follow_viewport_scale = 1.12
 
 [node name="CrateSprite" parent="World/Props +1" instance=ExtResource( 11 )]
-position = Vector2( 640, 768 )
+position = Vector2( 976, 832 )
+
+[node name="CrateSprite2" parent="World/Props +1" instance=ExtResource( 11 )]
+position = Vector2( 1200, 928 )
+
+[node name="CrateSprite3" parent="World/Props +1" instance=ExtResource( 11 )]
+position = Vector2( 1200, 744 )
+
+[node name="CrateSprite4" parent="World/Props +1" instance=ExtResource( 11 )]
+position = Vector2( 1392, 864 )
+
+[node name="CrateSprite5" parent="World/Props +1" instance=ExtResource( 11 )]
+position = Vector2( 1520, 928 )
 
 [node name="Decors +1" type="CanvasLayer" parent="World"]
 follow_viewport_enable = true
@@ -168,7 +276,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="World/Player"]
-shape = SubResource( 1 )
+shape = SubResource( 4 )
 
 [node name="HeadSprite" type="Sprite" parent="World/Player"]
 modulate = Color( 1, 0.3, 0.3, 1 )
